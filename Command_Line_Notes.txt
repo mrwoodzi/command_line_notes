@@ -1,0 +1,63 @@
+History - Was basically MS-Dos, can be found in executable files CMD.EXE 
+        - Command_Line is really known as "Shell"
+
+The Shell remembers your previous commands and will recall earlier commands with the up down arrows
+
+4 Basic commands: basics, files, system and network
+
+
+
+New-Item - Allows you to make new files
+cd - change directory
+pwd - print working directory
+hostname - my computers network name
+mkdir - make directory
+cd - change directory
+ls - list directory
+rmdir - remove directory
+pushd - push directory - allows you to store a directory and then popd back to it
+popd - pop directory -changes the current directory to the directory
+    tha was most recently stored by the pushd command
+cp - copy a file or directory
+mv - move a file or directory, 
+    It will rename but not copy what is in the file
+    So Copy first and then Paste?????
+robocopy - robust copy - allows you to override some permissions when copying a file 
+more - page through a file
+type -  print the whole file
+forfiles - run a command on lots of files
+dir -r - find files
+select-string - find things inside files
+help - read a manual page
+helpctr - find what manual page is appropriate
+echo - print some arguments
+set - expor/set a new environment variable
+runas - DANGER! become super user root DANGER!
+Ctrl+C - to exit in the middle of a Python program
+
+upgrading powershell to newest stable release
+        iex "& { $(irm https://aka.ms/install-powershell.ps1) } -UseMSI"
+
+
+cmdlet - will be in yellow when recognized, lightweight command
+       - can be used with parameters
+       - can be combined: CommandA | CommandB
+       - can be run directly after one another: 
+               CommandA & CommandB (the second command is run directly after the first)
+               CommandA && CommandB (the second command is only run if the first was successful)
+               Command A || CommandB (the second command is only run if the first was not successful)
+               CommandA && CommandB || CommandC (the second command is only run if the first was successful, 
+                    otherwise the third command is run)
+
+    redirection - the output of a command is directly forwarded to a file (>) or the 
+                  content of a text file is understood as input for the command (<)
+                - Command > File (output in file)
+                - Command < File (input from file)
+
+
+parameters - an arguement attached to command       
+           - + / -
+           - can be wild cards which are * ?
+
+
+        

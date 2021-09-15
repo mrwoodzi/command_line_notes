@@ -1,0 +1,65 @@
+append	    Sets the path in which files will be searched for.	32-bit/DOS
+assoc	    Changes the program that’s linked with a particular file ending.	10/8/7/Vista/XP
+attrib  	Changes attributes of specified files. With the parameter +R you 
+            can protect a file from changes.	All Win/DOS
+cipher	    Displays and changes the encryption status of files and directories on NTFS partitions.	
+            10/8/7/Vista/XP
+comp	    Compares the content of two files or two file sets. The results can be displayed as a decimal 
+            value (/D) or with ASCII characters (/A).	10/8/7/Vista/XP
+compact	    Displays and changes the compression status of files and directories on NTFS partitions.	
+            10/8/7/Vista/XP
+copy	    Copies a file or multiple files to another location. It’s also possible to connect several 
+            files to one. You can use the asterisk as a wild card.	All Win/DOS
+cscript	    Runs scripts over the Microsoft Script Host. You can enable additional debugging with the /D 
+            option.	All Win/DOS
+del	        Deletes a file or multiple files. If you also want to delete all files from subfolders, you 
+            can do this with the /S parameter. Read-only files can be deleted with /F 
+            (you can also use the erase command).	All Win/DOS
+diantz	    Compresses files without any loss (command has the same function as makecab).	7/Vista/XP
+diskcomp	Compares the content of two disks.	All Win (not 10)/DOS
+endlocal	Ends the valid range of changes to batch files or scripts. After the command, changes are 
+            applied to the entire system again (localization is started with setlocal).	10/8/7/Vista/XP
+erase	    Function is the same as del.	All Win/DOS
+expand	    Extracts files and folders stored in CAB files.	All Win (not 64-bit XP)/DOS
+extrac32	Extracts files and folders stored in CAB files. The program is part of Internet Explorer, 
+            but can also be used in the command prompt.	All Win
+fc	        Compares two individual files or two sets of files with one another and displays the differences.	
+            All Win/DOS
+for	        Sets a specific command that should be run for each individual file in a file set. This command is 
+            usually used in batch and script files.	All Win/DOS
+forfiles	Selects one or more files and runs a command that refers to these files. Usually used for batch and script files.	10/8/7/Vista
+ftype	    Specifies a program for opening a specific file type.	10/8/7/Vista/XP
+goto	    Skips the execution within a batch program to a specific line (marker).	All Win/DOS
+if	        Represents a conditional statement and executes expressions within batch files only under certain 
+            conditions. Can be extended by not if commands are only not to be executed under certain conditions.	
+            All Win/DOS
+makecab	    Compresses files without loss in CAB format (you can also use the diantz command).	10/8/7/Vista/XP
+mklink	    Creates a symbolic link to a file. With /D you can also create connections to directories. Create a 
+            fixed connection instead of a symbolic connection with /H.	10/8/7/Vista
+move	    Moves a file or multiple files from one directory to another. The command can also change the names of 
+            directories. By default, the command overwrites other files with the same name when moving files to the 
+            destination. To prevent this use the /-Y parameter.	All Win/DOS
+openfiles	Displays and separates open system files and folders.	10/8/7/Vista/XP
+recover	    Restores readable files that were on a defective data drive.	10/8/7/Vista/XP
+ren	        Changes the name of a particular file. Directory and drive cannot be changed this way (or use the 
+            rename command).	All Win/DOS
+rename	    Function is the same as ren.	All Win/DOS
+replace	    Replaces the selected file or files with one or more other files. With /S files in subfolders are 
+            also replaced. With the addition /U files are only replaced if another version is more current. 
+            The parameter /A allows users to add new files to the target directory at the same time. This parameter 
+            is not compatible with /S and /U.	All Win/DOS
+robocopy	Allows so-called robust file copying. This is an extended version of copy and xcopy. 
+            With robocopy it’s possible to successfully transfer data even if there are interruptions in the network. 
+            There are a total of 72 parameters with which the copy command can be modified.	10/8/7/Vista
+rsm	        Manages media on removable storage devices. Is used in batch files and scripts to support programs that 
+            don’t use “Removable Storage API.”	Vista/XP
+setlocal	Limits the valid range of changes to batch files or scripts. After the command, changes only apply to 
+            these files (localization is started with endlocal).	10/8/7/Vista/XP
+sxstrace	Starts the WinSxs Tracing Utility, a tool for programming diagnostics.	10/8/7/Vista
+takeown	    Restores administrator access rights to a file that have been lost when reassigning a user.	10/8/7/Vista
+verify	    When enabled, checks whether files are written correctly on a data drive. The check is disabled in the 
+            standard settings.	All Win/DOS
+where	    Finds files that match a particular search topic. The placeholders * and ? can be used within the topic.	10/8/7/Vista
+xcopy	    Copies files and entire directory structures. In this way, the command offers various additional options. 
+            For example, it can be specified that only files younger than a specific date (/D) should be copied. 
+            It can also be specified that read-only files are overwritten (/R).	All Win/DOS

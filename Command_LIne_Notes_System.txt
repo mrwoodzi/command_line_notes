@@ -1,0 +1,107 @@
+at	        Starts commands and programs at a particular time. With the parameter /every:date[,…] 
+            you can also set regular appointments.	10/8/7/Vista/XP
+auditpol	Displays current monitoring policies.	10/8/7/Vista
+bcdboot	    Creates and repairs start files.	10/8/7
+bcdedit 	Allows users to make changes to start configuration data storage 
+            (the command is a new version of bootcfq).	10/8/7/Vista
+bdehdcfg	Prepares a hard drive for BitLocker Drive Encryption.	10/8/7
+bootcfg	    Creates, edits, or displays the content of boot.ini (although it’s still included in 
+            the Windows 7 CMD, it has lost its function since boot.ini is no longer used for startup 
+            options, instead you should use bcdedit).	10/8/7/Vista/XP
+bootsect	Modifies the master boot code sot that it’s compatible with the Windows Boot Manager 
+            or NT Loader (can only be started via system restore in Windows 7 and Vista).	10/8/7/Vista
+cacls	    Edits and displays the access control list. This sets access rights (outdated – 
+            replaced by icacls in newer Windows versions).	10/8/7/Vista/XP
+chkdsk	    Checks and repairs (with the parameter /R) a data drive.	All Win/DOS
+chkntfs	    Changes or displays the data driver check at startup.	10/8/7/Vista/XP
+cmdkey	    Can display (/list), create (/add), or delete (/delete) login information.	10/8/7/Vista
+convert 	Converts partitions from FAT/FAT32 to NTFS.	10/8/7/Vista/XP
+defrag	    Defragments all or only specified drives. Use /U to observe the progress. To get an evaluation 
+            statistic after the defragmentation, use the parameter /V.	All Win/DOS
+diskpart	Manages, creates, and deletes partitions from the hard drive.	10/8/7/Vista/XP
+diskperf	Allows users to remotely control the disk performance counter.	10/8/7/Vista
+diskraid	Manages RAID systems.	10/8/7/Vista
+dism	    Manages and integrates Windows images.	10/8/7
+dispdiag	Creates a file in the current directory in which you’ll find information about your display.	
+            10/8/7/Vista
+driverquery	Creates a list with all installed drivers.	10/8/7/Vista/XP
+esentutl	Manages databases within the extensible storage engine.	10/8/7/Vista/XP
+eventcreate	Creates an entry (ID and message) in an event log.	10/8/7/Vista/XP
+fltmc	    Allows users to manage and display filter drivers.	10/8/7/Vista/XP
+fondue	    Installs additional Windows features. The command is an abbreviation for the 
+            underlying tool: Features on Demand User Experience Tool.	10/8
+format	    Formats a drive to the file system specified by the user.	All Win/DOS
+fsutil	    Provides numerous features related to the file system, such as disk removal.	10/8/7/Vista/XP
+hwrcomp	    Compiles self-created dictionaries for handwriting recognition.	10/8/7
+hwrreg	    Installs a compiled dictionary for handwriting recognition.	10/8/7
+icacls	    Edits and displays the access control list. This sets access rights. An outdated version 
+            of this command is cacls.	10/8/7/Vista
+ktmutil	    Starts the kernel transaction manager.	10/8/7/Vista
+label	    Changes or deletes a drive’s label.	All Win/DOS
+licensingdiag	Creates an XML and a CAB file that contain information on the Windows product license.	10/8
+lodctr  	Updates all registry entries that have to do with performance indicators.	All Win
+logman	    Creates and manages event trace sessions and performance logs.	10/8/7/Vista/XP
+manage-bde	Configures drive encryption with BitLocker. Use -on to encrypt a drive. Use -off to decrypt 
+            it again and end BitLocker protection.	10/8/7
+mode	    Configures system devices – primarily on the COM or LPT port.	All Win/DOS
+mofcomp	    Analyzes files in managed object format (MOF) and adds the classes and instances to the 
+            WMI repository.	All Win
+mountvol	Creates and deletes mount points for drives and displays them.	10/8/7/Vista/XP
+msiexec	    Starts the Windows installer, with which Windows can be installed and configured.	10/8/7/Vista/XP
+muiunattend	Starts an automatic setup process for the multilingual user interface (MUI).	10/8/7/Vista
+netcfg	    Installs the minimal operating system Microsoft Windows PE.	10/8/7/Vista
+pkgmgr  	Installs, uninstalls, and configures packages and functions for Windows.	10/8/7/Vista
+pnpunattend	Automates the installation of device drivers.	10
+pnputil	    Installs plug-and-play devices from the command prompt.	10/8/7/Vista
+powercfg	Allows the user to change the computer’s energy options and control energy conservation plans.	
+            10/8/7/Vista/XP
+pwlauncher	Configures the startup options for Windows To Go with which you can boot Windows from a USB drive.	
+            10/8
+qprocess	Provides information on running processes.	10/8/7/Vista
+query	    Displays the status of a particular service.	10/8/7/Vista
+quser	    Provides information on the currently logged-in users.	10/8/7/Vista
+reagentc	Configures the Windows recovery environment, with which you can repair the installation of the 
+            operating system.	10/8/7
+recimg	    Creates a user-defined Windows image to restore the system.	8
+reg	        Manages the registry of the command prompt. Users can create new keys (reg add) or delete them 
+            (reg delete).	10/8/7/Vista/XP
+regini	    Changes registry authorizations.	10/8/7/Vista/XP
+register-cimprovider	Registers a common information model provider (CIM provider) in Windows.	10/8
+regsvr32	Registers a DLL file in the registry.	10/8/7/Vista/XP
+relog	    Creates new performance indicator protocols from the data in the existing protocols.	
+            10/8/7/Vista/XP
+repair-bde	Repairs and decrypts defective drives that are encrypted with BitLocker. The files should be saved 
+            on a replacement drive.	10/8/7
+reset	    Resets a session. You can also use the rwinsta command.	10/8/7/Vista/XP
+rwinsta	    Command has the same function as reset.	10/8/7/Vista/XP
+sc      	Manages services by connecting to the Service Controller.	10/8/7/Vista/XP
+sdbinst 	Applies user-defined database files (SDB).	10/8/7/Vista/XP
+secedit	    Analyzes the security settings by comparing the current configurations with templates. 
+            Settings can also be configured, imported, and exported with this command.	10/8/7/Vista/XP
+setx	    Creates or changes environmental variable in the user of system environment.	10/8/7/Vista
+sfc	        Checks all important and protected system files. Incorrect versions are replaced by correct ones.	
+            10/8/7/Vista/XP
+systeminfo	Displays information about the Windows installation, including all installed service packages. 
+            The information can be obtained from the local system as well as a remote computer.	10/8/7/Vista/XP
+tpmvscmgr	Creates and deletes TPM virtual smart cards. These are virtual smartcards encrypted on the 
+            basis of the Trusted Platform Model.	10/8
+tracerpt	Processes logs or real-time data generated during the tracing of computer programs.	
+            10/8/7/Vista/XP
+typeperf	Displays performance counter data or writes it into a file.	10/8/7/Vista/XP
+unlodctr	Deletes names as well as descriptions for extensible performance counters in the Windows registry.	
+            10/8/7/Vista/XP
+vaultcmd	Creates, deletes, and displays saved registration information.	10/8/7
+vol	        Displays the label and serial number of a drive.	All Win/DOS
+vssadmin	Manages the volume shadow copy services that can be used to store different versions (snapshots) of 
+            drives.	10/8/7/Vista/XP
+wbadmin	    Creates backups of the operating system and delivers information to the created backup copies.	
+            10/8/7/Vista
+wevtutil	Manages event logs and event log files.	10/8/7/Vista
+whoami	    Provides information about the current user. With the /GROUP parameter you can obtain additional 
+            information about group membership.	10/8/7/Vista
+winmgmt	    Manages WMI repositories. Backups (/backup) are possible with the command, for example.	All Win
+winsat	    Evaluates various system factors – for example, processor performance or graphical capabilities.	
+            10/8/7/Vista
+wmic	    Starts the Windows Management Instrumentation in the command prompt. Various Windows settings can be 
+            changed here – both locally and on remote computers.	10/8/7/Vista/XP
+xwizard	    Registers Windows data in the form of XML files.	10/8/7
